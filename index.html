@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+      <title>Memory Game</title>
+      <link href="vendor/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body ng-app="memory-game">
+
+    <div class="container" ng-controller="CardController as cardCtrl">
+
+      <div class="row">
+
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-11">
+          <div class="row memory-game-container">
+
+            <div class="col-md-4" ng-click="cardClick(card)" ng-repeat="card in cardList track by $index" >
+
+                <div class="memory-game-card-placeholder">
+
+                  <div class="memory-game-card-style" ng-class="card.css" ng-show="card.isVisible" />
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="vendor/bower_components/angular/angular.js"></script>
+    <script src="vendor/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
+
+  </body>
+</html>

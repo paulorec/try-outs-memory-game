@@ -1,0 +1,9 @@
+.memory-game-container .memory-game-card-placeholder {height:20%; border:1px solid gray; margin-top:15px; margin-bottom:15px}
+
+.memory-game-container .memory-game-card-placeholder .memory-game-card-style {width:100%; height:100%}
+
+.memory-game-container .memory-game-card-placeholder .memory-game-card-cover-style-1 {background-color:orange}
+.memory-game-container .memory-game-card-placeholder .memory-game-card-cover-style-2 {background-color:blue}
+.memory-game-container .memory-game-card-placeholder .memory-game-card-cover-style-3 {background-color:red}
+.memory-game-container .memory-game-card-placeholder .memory-game-card-cover-style-4 {background-color:violet}
+.memory-game-container .memory-game-card-placeholder .memory-game-card-cover-style-disabled {background-color:gray}
